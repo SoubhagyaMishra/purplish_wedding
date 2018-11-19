@@ -197,6 +197,11 @@ button {
     padding-right: 43px
 }
 
+.btn-align {
+    margin-top: 350px;
+    margin-left: 200px;
+}
+
 .btn-fluid {
     max-width: 100%;
     width: 100%
@@ -2406,7 +2411,7 @@ button {
         height: auto;
         padding-top: 90px;
         padding-bottom: 185px;
-        background-attachment: initial
+        background-attachment: initial;
     }
     .hero-slider-wrap {
         margin-bottom: 0

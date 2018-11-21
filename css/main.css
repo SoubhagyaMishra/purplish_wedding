@@ -495,6 +495,15 @@ button {
     margin-bottom: 59px
 }
 
+.hero-slogan h1 {
+    font-size: 40px;
+}
+
+.hero-slogan p {
+    font-size: 20px;
+    text-align: center;
+}
+
 .hero-text-slider {
     text-align: left;
     max-width: 647px;
@@ -1299,15 +1308,15 @@ button {
     border-bottom: 16px solid transparent
 }
 
-.pricing {
+.testimonial {
     padding-bottom: 147px
 }
 
-.pricing-opacity {
+.testimonial-opacity {
     padding-top: 1px
 }
 
-.price-item {
+.testimonial-item {
     border-radius: 4px;
     background-color: #f5f7fa;
     margin-top: 30px;
@@ -1315,7 +1324,7 @@ button {
     padding-bottom: 70px
 }
 
-.price-item-digit {
+.testimonial-item-digit {
     margin-top: 0;
     margin-bottom: 24px;
     font-size: 59px;
@@ -1325,11 +1334,11 @@ button {
     line-height: 1
 }
 
-.price-item-symbol span {
+.testimonial-item-symbol span {
     margin-left: -15px
 }
 
-.price-item-plan {
+.testimonial-item-plan {
     color: #fe4e64;
     display: block;
     text-align: center;
@@ -1338,18 +1347,18 @@ button {
     font-size: 30px
 }
 
-.price-item-list {
+.testimonial-item-list {
     padding-left: 131px;
     margin-top: 39px;
     margin-bottom: 41px
 }
 
-.price-item-list-opacity li {
+.testimonial-item-list-opacity li {
     margin-bottom: 10px;
     list-style: none
 }
 
-.price-item-list-opacity li:before {
+.testimonial-item-list-opacity li:before {
     content: "•";
     font-size: 50px;
     line-height: 0;
@@ -1361,11 +1370,11 @@ button {
     left: -19px
 }
 
-.price-item-btn {
+.testimonial-item-btn {
     text-align: center
 }
 
-.price-item-best {
+.testimonial-item-best {
     background-color: #fe4e64;
     margin-top: 0;
     padding-top: 90px;
@@ -1373,33 +1382,33 @@ button {
     color: #fff
 }
 
-.price-item-best .price-item-digit {
+.testimonial-item-best .testimonial-item-digit {
     color: #fff
 }
 
-.price-item-best .price-item-plan {
+.testimonial-item-best .testimonial-item-plan {
     color: #fff
 }
 
-.price-item-opacity {
+.testimonial-item-opacity {
     background-color: rgba(245, 247, 250, .8)
 }
 
-.price-item-opacity.price-item-best {
+.testimonial-item-opacity.testimonial-item-best {
     background-color: rgba(254, 78, 100, .8)
 }
 
-.price-item-red {
+.testimonial-item-red {
     background-color: #fe4e64;
     color: #fff
 }
 
-.price-item-red .price-item-digit,
-.price-item-red .price-item-plan {
+.testimonial-item-red .testimonial-item-digit,
+.testimonial-item-red .testimonial-item-plan {
     color: #fff
 }
 
-.pricing-pb-0 {
+.testimonial-pb-0 {
     padding-bottom: 2px
 }
 
@@ -2272,7 +2281,7 @@ button {
 }
 
 @media only screen and (max-width:1200px) {
-    .price-item-list {
+    .testimonial-item-list {
         padding-left: 100px;
         padding-right: 100px
     }
@@ -2720,39 +2729,39 @@ button {
     .video-item-wrapper {
         min-height: auto
     }
-    .pricing {
+    .testimonial {
         padding-bottom: 40px
     }
-    .pricing-opacity {
+    .testimonial-opacity {
         background-image: none!important;
         padding-top: 0;
         padding-bottom: 0;
         margin-bottom: -30px
     }
-    .pricing-opacity svg .st0 {
+    .testimonial-opacity svg .st0 {
         fill: #fe4e64!important
     }
-    .pricing-pb-0 {
+    .testimonial-pb-0 {
         padding-bottom: 0;
         margin-bottom: -30px
     }
-    .price-item {
+    .testimonial-item {
         margin-bottom: 30px;
         margin-top: 0
     }
-    .price-item-list {
+    .testimonial-item-list {
         padding-left: 186px;
         padding-right: 158px
     }
-    .price-item-best {
+    .testimonial-item-best {
         padding-top: 63px;
         padding-bottom: 70px
     }
-    .price-item-opacity {
+    .testimonial-item-opacity {
         background-color: #f5f7fa;
         margin-top: 0
     }
-    .price-item-opacity.price-item-best {
+    .testimonial-item-opacity.testimonial-item-best {
         background-color: #fe4e64
     }
     .block-header-img-hide-tablet {
@@ -3313,40 +3322,40 @@ button {
     .video-item-left {
         margin-bottom: 39px
     }
-    .pricing {
+    .testimonial {
         padding-bottom: 26px
     }
-    .pricing-opacity {
+    .testimonial-opacity {
         padding-bottom: 0;
         margin-bottom: -34px
     }
-    .pricing-pb-0 {
+    .testimonial-pb-0 {
         padding-bottom: 0;
         margin-bottom: -34px
     }
-    .price-item {
+    .testimonial-item {
         margin-top: 0;
         margin-bottom: 34px;
         padding-top: 38px;
         padding-bottom: 45px
     }
-    .price-item-digit {
+    .testimonial-item-digit {
         font-size: 45px;
         margin-bottom: 22px
     }
-    .price-item-plan {
+    .testimonial-item-plan {
         font-size: 24px
     }
-    .price-item-list {
+    .testimonial-item-list {
         padding-left: 97px;
         padding-right: 80px;
         margin-top: 24px;
         margin-bottom: 28px
     }
-    .price-item-list li {
+    .testimonial-item-list li {
         margin-bottom: 6px
     }
-    .price-item-symbol span {
+    .testimonial-item-symbol span {
         margin-left: -10px
     }
     .story-item {

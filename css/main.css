@@ -195,12 +195,15 @@ button {
     padding-top: 10px;
     padding-bottom: 7px;
     padding-left: 43px;
-    padding-right: 43px
+    padding-right: 43px;
+    position: absolute;
+    top: 87%;
+    left: 38%;
+    display: none;
 }
 
-.btn-align {
-    margin-top: 350px;
-    margin-left: 200px;
+.btn-disp {
+    display: block;
 }
 
 .btn-fluid {

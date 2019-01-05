@@ -2292,6 +2292,9 @@ button {
 }
 
 @media only screen and (max-width:1024px) {
+    .nav-social {
+        display: none;
+    }
     .clearfix-tablet {
         display: block
     }

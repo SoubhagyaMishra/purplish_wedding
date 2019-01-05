@@ -140,7 +140,8 @@ h4 {
     top: 0;
     right: 0;
     left: 0;
-    background: linear-gradient(to bottom, rgba(7, 2, 1, .4) 0, rgba(255, 140, 140, 0) 100%)
+    /* background: linear-gradient(to bottom, rgba(7, 2, 1, .4) 0, rgba(255, 140, 140, 0) 100%); */
+    background: rgba(0,0,0,0.6);
 }
 
 .block {
@@ -199,7 +200,6 @@ button {
     position: absolute;
     top: 87%;
     left: 38%;
-    display: none;
 }
 
 .btn-disp {

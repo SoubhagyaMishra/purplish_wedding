@@ -2436,9 +2436,21 @@ button {
         max-width: 155px;
         margin-bottom: -10px
     }
-    .hero-slogan {
+    /* .hero-slogan {
         margin-top: -15px;
         margin-bottom: 51px
+    } */
+
+    .hero-slogan {
+        margin-top: 45vh;
+        margin-bottom: -10vh;
+    }
+    .hero-slogan h1{
+        font-size: 44px;
+    }
+    .hero-slogan p{
+        font-size: 19px;
+        text-align: center;
     }
     .hero-mouse {
         bottom: 30px
@@ -3110,9 +3122,9 @@ button {
         margin-bottom: -10px
     }
     .hero-slogan {
-        margin-top: -6px;
-        margin-bottom: 41px;
-        font-size: 21px
+        margin-top: 30vh;
+        margin-bottom: -10vh;
+        font-size: 21px;
     }
     .hero-mouse {
         display: none

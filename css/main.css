@@ -496,7 +496,7 @@ button {
 .hero-slogan {
     font-family: wRufina, sens-serif;
     font-size: 40px;
-    margin-bottom: 59px
+    margin-bottom: -45vh;
 }
 
 .hero-slogan h1 {
@@ -3126,6 +3126,13 @@ button {
         margin-bottom: -10vh;
         font-size: 21px;
     }
+    .hero-slogan h1{
+        font-size: 19px;
+    }
+    .hero-slogan p{
+        font-size: 11px;
+        text-align: center;
+    }
     .hero-mouse {
         display: none
     }
@@ -3509,5 +3516,14 @@ button {
     .footer-copy {
         margin-top: 10px;
         font-size: 14px
+    }
+}
+@media only screen and (max-width:600px) {
+    .hero-slogan h1{
+        font-size: 18px;
+    }
+    .hero-slogan p{
+        font-size: 10px;
+        text-align: center;
     }
 }

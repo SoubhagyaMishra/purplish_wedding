@@ -951,6 +951,10 @@ button {
     background-size: cover;
     background-repeat: no-repeat
 }
+.service-text p {
+    text-align: justify;
+    color: #000;
+}
 
 .services-list {
     margin-top: 62px;
@@ -3213,8 +3217,8 @@ button {
         margin-bottom: 27px
     }
     .about-button .btn {
-        width: 100%;
-        text-align: center
+        left: 9%;
+        text-align: center;
     }
     .service-icon {
         width: 70px;

@@ -527,8 +527,10 @@ button {
 }
 
 .hero-slogan p {
+    font-family: 'Tangerine', cursive;
     color: #000;
-    font-size: 16px;
+    font-size: 4.4vh;
+    font-weight: 700;
     text-align: center;
     line-height: 10px;
 }
@@ -574,7 +576,7 @@ button {
     padding-top: 2px
 }
 .hero-logo {
-    margin: -85px 0 25px 40vh;
+    margin: -40px 0 25px 40vh;
     max-width: 180px;
 }
 .hero-logo img {
@@ -3146,7 +3148,7 @@ button {
         margin-bottom: 0
     }
     .hero-logo {
-        margin: 0 15vh -18vh;
+        margin: -90px 15vh -18vh;
     }
     .hero-slogan {
         margin-top: 20vh;
@@ -3155,7 +3157,8 @@ button {
         font-size: 2.7vh;
     }
     .hero-slogan p{
-        font-size: 1.2vh;
+        font-size: 2.2vh;
+        font-weight: 700;
         text-align: center;
     }
     .hero-mouse {

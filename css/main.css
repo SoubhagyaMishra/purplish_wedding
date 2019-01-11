@@ -528,8 +528,9 @@ button {
 
 .hero-slogan p {
     color: #000;
-    font-size: 17px;
+    font-size: 16px;
     text-align: center;
+    line-height: 10px;
 }
 
 .hero-text-slider {
@@ -3154,7 +3155,7 @@ button {
         font-size: 2.7vh;
     }
     .hero-slogan p{
-        font-size: 11px;
+        font-size: 1.2vh;
         text-align: center;
     }
     .hero-mouse {

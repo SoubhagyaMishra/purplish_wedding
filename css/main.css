@@ -338,7 +338,7 @@ button {
     z-index: 5;
     width: 100%;
     height: 45px;
-    background: lightpink;
+    background: #fe4e64;
 }
 
 .header-container {
@@ -415,7 +415,7 @@ button {
 }
 
 .nav-item {
-    color: #000;
+    color: #fff;
     margin-right: 49px;
     position: relative
 }
@@ -2080,7 +2080,7 @@ button {
 .footer {
     padding-top: 81px;
     padding-bottom: 66px;
-    background-color: lightpink;
+    background-color: #fe4e64;
 }
 
 .footer-wrap {

@@ -437,7 +437,6 @@ button {
 .nav-item:focus,
 .nav-item:hover {
     text-decoration: none;
-    color: #595858;
 }
 
 .nav-item.is-active:after,

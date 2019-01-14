@@ -365,7 +365,7 @@ button {
 }
 
 .header-burger {
-    display: none
+    display: none; 
 }
 
 .header-colored {
@@ -415,7 +415,7 @@ button {
 }
 
 .nav-item {
-    color: #fff;
+    color: purple;
     margin-right: 49px;
     position: relative
 }

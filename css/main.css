@@ -3056,7 +3056,8 @@ button {
     button,
     input[type=submit] {
         padding-top: 10px;
-        padding-bottom: 9px
+        padding-bottom: 9px;
+        left: 33%;
     }
     .block-header {
         margin-top: 59px
@@ -3256,6 +3257,10 @@ button {
     .service-text {
         padding-left: 30px;
         padding-right: 30px
+    }
+    .service-text p {
+        text-align: center;
+        color: #000;
     }
     .service-text-grid {
         padding-left: 0;

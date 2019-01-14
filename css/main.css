@@ -211,6 +211,14 @@ button {
     left: 38%;
 }
 
+.btn-loc {
+    top: 86%;
+    left: 20%;
+    position: relative;
+    width: 60%;
+    text-align: center;
+}
+
 .btn-about {
     padding: 6px 14px 5px 14px;
     position: absolute;
@@ -3061,6 +3069,12 @@ button {
         padding-top: 10px;
         padding-bottom: 9px;
         left: 33%;
+    }
+    .btn-loc {
+        display: block;
+        top: 77%;
+        left: 8%;
+        width: 85%;
     }
     .block-header {
         margin-top: 59px

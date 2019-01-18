@@ -30,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   }
 
   if (empty($_POST["contactPhone"])) {
-    $pnone_error = "Phone is required";
+    $phone_error = "Phone is required";
   } else {
     $phone = test_input($_POST["contactPhone"]);
 

@@ -209,6 +209,7 @@ button {
     padding-right: 43px;
     position: absolute;
     left: 38%;
+    outline: none;
 }
 
 .btn-loc {
@@ -424,7 +425,7 @@ button {
     font-family: wRaleway, sans-serif;
     color: #fff;
     margin-right: 49px;
-    position: relative
+    position: relative;
 }
 
 .nav-item:after {
@@ -449,31 +450,30 @@ button {
 .nav-item.is-active:after,
 .nav-item:focus:after,
 .nav-item:hover:after {
-    width: 100%
+    width: 100%;
 }
 
 .nav-social-item {
     color: #fff;
     margin-right: 19px;
-    font-size: 25px;
+    font-size: 20px;
     letter-spacing: 10px;
 }
 
 .nav-social-item:last-child {
-    margin-right: 0
+    margin-right: 0;
 }
 
 .nav-social-item:hover {
-    color: #fe4e64;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .nav-social-item-hover-inverse:hover {
-    color: #fff
+    color: #fff;
 }
 
 .fixed {
-    position: fixed
+    position: fixed;
 }
 
 .hero {
@@ -1730,6 +1730,9 @@ button {
     border-right: none;
     border-bottom: 1px solid #d1d1d1;
     color: #191919;
+    outline: none;
+    resize: none;
+    overflow: hidden;
 }
 
 .contact-form-control-gray {
@@ -2088,8 +2091,7 @@ button {
 }
 
 .footer {
-    padding-top: 81px;
-    padding-bottom: 66px;
+    padding: 10px 0 10px 0;
     background-color: #fe4e64;
 }
 
@@ -2102,26 +2104,40 @@ button {
 }
 
 .footer-nav {
-    margin-left: auto
+    margin: auto;
 }
 
-.footer .nav,
+.footer-nav .nav{
+    position: relative;
+    top: -3px;
+    margin-left: 40px;
+}
+
 .footer .nav-social {
     position: relative;
-    top: 0
+    top: 0;
+    margin: auto;
 }
 
 .footer .nav-social-item:last-child {
     margin-right: 0
 }
 
-.footer .nav-item {
+.footer-nav-item {
+    font-size: 12px;
+    margin-right: 50px;
     margin-left: -30px;
 }
 
 .footer-copy {
     color: #fff;
-    font-size: 14px
+    font-size: 14px;
+    margin: auto;
+}
+
+.footer-copy p {
+    margin-top: 7px;
+    font-size: 12px;
 }
 
 .demo-hero {
@@ -2311,7 +2327,7 @@ button {
         max-width: 26.6%
     }
     .rellax {
-        display: none
+        display: block;
     }
     .video-item {
         padding-left: 100px

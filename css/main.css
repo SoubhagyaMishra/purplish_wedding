@@ -2286,7 +2286,7 @@ button {
         right: -15px
     }
     .rellax {
-        display: none
+        display: block;
     }
 }
 

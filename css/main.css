@@ -906,6 +906,52 @@ button {
     height: 13px
 }
 
+.hero-service {
+    background: url('../540304/8.jpg');
+    background-position: 50% 0px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    max-height: 300px;
+}
+
+.venue-list-title {
+    text-align: left;
+    color: #fe4e64;
+}
+
+.content-align {
+    text-align: left;
+}
+
+.block-content-align {
+    text-align: justify;
+}
+
+.d-gap {
+    margin-bottom: 50px;
+}
+
+ .dest-name {
+    position: absolute;
+    top: 35%;
+    left: 41%;
+    display: inline-block;
+    background-color: #fe4e64;
+    border-radius: 2px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: wRalewayMedium, sans-serif;
+    font-size: 14px;
+    padding: 8px;
+    letter-spacing: .075em;
+    min-width: 112px;
+    text-align: center;
+    font-weight: 600;
+} 
+
 .service-title {
     margin-top: 5px;
     margin-bottom: 5px;
@@ -1610,7 +1656,8 @@ button {
 
 .story-item-title {
     margin-top: 28px;
-    margin-bottom: 5px
+    margin-bottom: 10px;
+    line-height: 1.28;
 }
 
 .story-item-title-4 {

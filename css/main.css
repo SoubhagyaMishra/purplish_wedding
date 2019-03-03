@@ -1990,8 +1990,8 @@ button {
     flex-direction: column;
     margin-bottom: 8px;
     min-height: 304px;
-    margin-right: 8px
-}
+    margin-right: 8px 
+} 
 
 .gallery-carousel-mobile {
     display: none

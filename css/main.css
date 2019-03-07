@@ -934,7 +934,18 @@ button {
     margin-bottom: 50px;
 }
 
- .dest-name {
+.theme-container {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.theme-img {
+    height: auto;
+    float: left;
+    margin: 0px 20px 10px 0;
+}
+
+.dest-name {
     position: absolute;
     top: 2%;
     left: 41%;
@@ -956,6 +967,7 @@ button {
     margin-top: 5px;
     margin-bottom: 5px;
     color: #fe4e64;
+    text-align: center;
 }
 
 .service-title-grid {
@@ -3337,28 +3349,29 @@ button {
     }
     .service-icon svg {
         width: 33px;
-        height: 28px
+        height: 28px;
     }
     .service-icon img {
         width: 33px;
-        height: 28px
+        height: 28px;
     }
     .service-title {
-        margin-top: 3px
+        margin-top: 3px;
+        font-size: 22px;
     }
     .service-content {
-        margin-bottom: 33px
+        margin-bottom: 33px;
     }
     .service-content-grid {
         padding-left: 33px;
         padding-right: 30px;
-        margin-bottom: 38px
+        margin-bottom: 38px;
     }
     .service-content-carousel {
-        margin-bottom: 0
+        margin-bottom: 0;
     }
     .service-content-carousel-wrap {
-        padding-bottom: 65px
+        padding-bottom: 65px;
     }
     .service-text {
         padding-left: 30px;
@@ -3654,5 +3667,11 @@ button {
     .footer-copy {
         margin-top: 10px;
         font-size: 14px
+    }
+    .theme-img {
+        width: 100%;
+    }
+    .theme-container {
+        padding-bottom: 0;
     }
 }

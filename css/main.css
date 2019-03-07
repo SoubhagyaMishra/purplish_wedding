@@ -1934,7 +1934,7 @@ button {
 
 .slider .owl-carousel .owl-nav .owl-next,
 .slider .owl-carousel .owl-nav .owl-prev {
-    max-width: 430px;
+    max-width: 468px;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -1957,6 +1957,7 @@ button {
 }
 
 .slider-icon-wrap {
+    border-radius: 2px;
     background-color: #f4f6f9;
     height: 60px;
     line-height: 60px;

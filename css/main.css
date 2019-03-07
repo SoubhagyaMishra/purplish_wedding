@@ -1122,7 +1122,8 @@ button {
 }
 
 .team-text-list {
-    margin-top: 6px
+    margin: 6px 0;
+    text-align: justify;
 }
 
 .team-text-col {
@@ -2377,6 +2378,9 @@ button {
     .rellax-price-red-11 {
         right: 92px
     }
+    .team-text-list {
+        margin-right: 40px;
+    }
 }
 
 @media only screen and (max-width:1600px) {
@@ -2857,6 +2861,9 @@ button {
         text-align: center;
         margin-top: 28px
     }
+    .team-text-list {
+        margin-right: 0;
+    }
     .team-list {
         padding-bottom: 3px
     }
@@ -2946,7 +2953,7 @@ button {
         display: none
     }
     .gallery-carousel-mobile {
-        display: block
+        display: block;
     }
     .gallery-carousel-mobile .owl-nav {
         position: relative;
@@ -3127,6 +3134,9 @@ button {
     }
     .footer .nav-item {
         margin-right: 0
+    }
+    .wrapper {
+        display: none;
     }
 }
 
@@ -3595,7 +3605,10 @@ button {
         padding-right: 35px
     }
     .gallery-carousel-mobile {
-        display: block
+        display: block;
+    }
+    .wrapper {
+        display: none;
     }
     .gallery-carousel-mobile .owl-nav .slider-icon-wrap {
         font-size: 24px
@@ -3673,5 +3686,11 @@ button {
     }
     .theme-container {
         padding-bottom: 0;
+    }
+    .team-text-list {
+        margin: 0;
+    }
+    .wrapper {
+        display: none;
     }
 }

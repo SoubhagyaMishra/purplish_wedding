@@ -944,6 +944,11 @@ button {
     float: left;
     margin: 0px 20px 10px 0;
 }
+.theme-img-pos {
+    height: auto;
+    float: right;
+    margin: 0 0 10px 20px;
+}
 
 .dest-name {
     position: absolute;
@@ -1655,6 +1660,10 @@ button {
 
 .stories {
     margin-bottom: -8px
+}
+
+.story-container {
+    padding: 20px;
 }
 
 .stories-4 {

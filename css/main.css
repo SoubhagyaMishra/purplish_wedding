@@ -1956,7 +1956,7 @@ button {
 
 .slider .owl-carousel .owl-nav .owl-next,
 .slider .owl-carousel .owl-nav .owl-prev {
-    max-width: 468px;
+    max-width: 412px;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -2413,7 +2413,7 @@ button {
     }
     .slider .owl-carousel .owl-nav .owl-next,
     .slider .owl-carousel .owl-nav .owl-prev {
-        max-width: 362px
+        max-width: 354px
     }
 }
 
